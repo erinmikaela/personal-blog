@@ -2,10 +2,19 @@ body{
     height: 1000vh;
 }
 
-.container{
+.logo{
+    margin: 0;
+    padding: 0;
     width: 100%;
-    height: 500px;
+    height: 400px;
     background-position: center;
     background-size: cover;
-    background-image: url;
+    background-repeat: no-repeat;
+    background-image: url(https://i.pinimg.com/originals/84/49/a5/8449a506d956155b9cee8043b00c3ae3.jpg);
+    background-attachment: fixed;
+
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
