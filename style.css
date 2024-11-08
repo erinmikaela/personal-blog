@@ -3,14 +3,12 @@ body{
 }
 
 .logo{
-    margin: 0;
-    padding: 0;
-    width: 1000px;
-    height: 400px;
-    background-position: center;
-    background-size: cover;
+    width: 2500px;
+    height: 80vh;
+    background-position:initial;
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-image: url(https://github.com/erinmikaela/personal-blog/blob/main/ASSETS/banner.png?raw=true);
+    background-image: url(https://raw.githubusercontent.com/erinmikaela/personal-blog/8078454f0abae9e5c6bb2da17677889f97dcd466/ASSETS/Cream%20and%20Brown%20Aesthetic%20Fashion%20Designer%20Twitter%20Header.svg);
     background-attachment: fixed;
 
     color: black;
