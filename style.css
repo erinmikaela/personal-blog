@@ -3,8 +3,8 @@ body{
 }
 
 .logo{
-    width: 2500px;
-    height: 80vh;
+    width: 1260px;
+    height: 70vh;
     background-position:initial;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -16,3 +16,29 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.sidebar-icon {
+    position: fixed;
+    top: 10px;  
+    left: 10px;  
+    width: 40px; 
+    height: 40px; 
+    cursor: pointer;
+    z-index: 1050; 
+  }
+
+  .card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin: 15px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+
+  .col{
+    display: block;
+    text-align: center;
+  }
