@@ -5,12 +5,12 @@ body{
 .logo{
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 1000px;
     height: 400px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(https://i.pinimg.com/originals/84/49/a5/8449a506d956155b9cee8043b00c3ae3.jpg);
+    background-image: url(https://github.com/erinmikaela/personal-blog/blob/main/ASSETS/banner.png?raw=true);
     background-attachment: fixed;
 
     color: black;
