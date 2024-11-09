@@ -14,7 +14,7 @@
 		<title>Erin's Corner</title>
 	</head>
 	<body>
-		<nav id="home-nav">
+		<div id="home-nav">
 			<div class="logo"></div>
 			<div>
 				<a
@@ -31,7 +31,7 @@
 					/>
 				</a>
 			</div>
-		</nav>
+		</div>
 
 		<div
 			class="offcanvas offcanvas-start"
@@ -52,9 +52,9 @@
 			<div class="offcanvas-body">
 				<ul class="list-unstyled">
 					<li><a href="#home-nav" class="nav-link">Home</a></li>
-					<li><a href="#about" class="nav-link">About</a></li>
-					<li><a href="#services" class="nav-link">Services</a></li>
-					<li><a href="#contact" class="nav-link">Contact</a></li>
+					<li><a href="#it-projects" class="nav-link">IT Projects</a></li>
+					<li><a href="#finance-blogs" class="nav-link">Finance Blogs</a></li>
+					<li><a href="#contacts" class="nav-link">Contact</a></li>
 				</ul>
 			</div>
 		</div>
@@ -72,18 +72,69 @@
                 <p id= "section__text__p2"> 3rd year BSIS student at Technological University of the Philippines - Manila </p>
 			</div>
 		</section>
+        <div class ="btn-container">
+            <button class = "btn btn-color-1" onclick = "window.open('./ASSETS/Erin Esteban-CV.jpg')">
+                Download CV
+            </button>
+        </div>
+
+        <section id="it-projects">
+            <h2>IT Projects</h2>
+            <p>Explore our latest IT projects, including web development, software solutions, and system upgrades.</p>
+            <h4>Minesweeper</h3>
+            <ul>
+              <li>Project 1: E-commerce Website</li>
+              <li>Project 2: Mobile App Development</li>
+              <li>Project 3: Cloud Migration Strategy</li>
+            </ul>
+          </section>
+        
+          <!-- Finance Blogs Section -->
+          <section id="finance-blogs">
+            <h2>Finance Blogs</h2>
+            <p>Read our latest insights on personal finance, investing strategies, and market analysis.</p>
+            <ul>
+              <li>Blog Post 1: 5 Tips for Budgeting Effectively</li>
+              <li>Blog Post 2: Investment Strategies for Beginners</li>
+              <li>Blog Post 3: Market Trends and Predictions</li>
+            </ul>
+          </section>
+        
+          <!-- Contacts Section -->
+          <section id="contacts">
+            <h2>Contacts</h2>
+            <p>Get in touch with us for inquiries, collaborations, or support.</p>
+            <ul>
+              <li>Email: info@example.com</li>
+              <li>Phone: +123 456 7890</li>
+              <li>Address: 123 Main St, Anytown, Country</li>
+            </ul>
+            <form>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required><br><br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required><br><br>
+              <label for="message">Message:</label><br>
+              <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+              <button type="submit">Send Message</button>
+            </form>
+          </section>
+
+
 		<div class="col">
 			<div class="card">
-				<h5>Download CV</h5>
-				<p>hdeohivnaeieneiwofneiwveeb</p>
+                <h5>CV</h5>
+                <div class ="btn-container">
+                    <button class = "btn btn-color-1" onclick="window.open('./ASSETS/Erin Esteban-CV.jpg')">
+                        Download CV
+                    </button>
+                </div>
 			</div>
 			<div class="card">
-				<h5 id="card__text1">IT Projects</h5>
-				<p>hdeohivnaeieneiwofneiwveeb</p>
+				<h5>IT Projects</h5>
 			</div>
 			<div class="card">
 				<h5>Finance Blogs</h5>
-				<p>hdeohivnaeieneiwofneiwveeb</p>
 			</div>
 		</div>
         <footer id="footer">
