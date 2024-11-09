@@ -14,6 +14,7 @@
 		<title>Erin's Corner</title>
 	</head>
 	<body>
+		<!-- Offcanvas Icon -->
 		<div id="home-nav">
 			<div class="logo"></div>
 			<div>
@@ -33,6 +34,7 @@
 			</div>
 		</div>
 
+		<!-- Offcanvas Bar-->
 		<div
 			class="offcanvas offcanvas-start"
 			tabindex="-1"
@@ -41,7 +43,7 @@
 			style="visibility: visible"
 		>
 			<div class="offcanvas-header">
-				<h5 id="sidebarLabel">Sidebar</h5>
+				<h5 id="sidebarLabel">Erin's Corner</h5>
 				<button
 					type="button"
 					class="btn-close text-reset"
@@ -53,11 +55,14 @@
 				<ul class="list-unstyled">
 					<li><a href="#home-nav" class="nav-link">Home</a></li>
 					<li><a href="#it-projects" class="nav-link">IT Projects</a></li>
-					<li><a href="#finance-blogs" class="nav-link">Finance Blogs</a></li>
+					<li><a href="#book-review" class="nav-link">Book Review</a></li>
+					<li><a href="#poem" class="nav-link">Poem Collection</a></li>
 					<li><a href="#contacts" class="nav-link">Contact</a></li>
 				</ul>
 			</div>
 		</div>
+
+		<!-- Home Section -->
 		<section id="home">
 			<div class="section__pic-container">
 				<img
@@ -68,83 +73,331 @@
 			</div>
 			<div class="section__text">
 				<p id="section__text__p1">Hey there! I'm</p>
-                <h1 id= "section__text__h1"> Erin Esteban</h1>
-                <p id= "section__text__p2"> 3rd year BSIS student at Technological University of the Philippines - Manila </p>
+				<h1 id="section__text__h1">Erin Mikaela Esteban</h1>
+				<p id="section__text__p2">
+					3rd year BSIS student at Technological University of the Philippines -
+					Manila
+				</p>
 			</div>
 		</section>
-        <div class ="btn-container">
-            <button class = "btn btn-color-1" onclick = "window.open('./ASSETS/Erin Esteban-CV.jpg')">
-                Download CV
-            </button>
-        </div>
-
-        <section id="it-projects">
-            <h2>IT Projects</h2>
-            <p>Explore our latest IT projects, including web development, software solutions, and system upgrades.</p>
-            <h4>Minesweeper</h3>
-            <ul>
-              <li>Project 1: E-commerce Website</li>
-              <li>Project 2: Mobile App Development</li>
-              <li>Project 3: Cloud Migration Strategy</li>
-            </ul>
-          </section>
-        
-          <!-- Finance Blogs Section -->
-          <section id="finance-blogs">
-            <h2>Finance Blogs</h2>
-            <p>Read our latest insights on personal finance, investing strategies, and market analysis.</p>
-            <ul>
-              <li>Blog Post 1: 5 Tips for Budgeting Effectively</li>
-              <li>Blog Post 2: Investment Strategies for Beginners</li>
-              <li>Blog Post 3: Market Trends and Predictions</li>
-            </ul>
-          </section>
-        
-          <!-- Contacts Section -->
-          <section id="contacts">
-            <h2>Contacts</h2>
-            <p>Get in touch with us for inquiries, collaborations, or support.</p>
-            <ul>
-              <li>Email: info@example.com</li>
-              <li>Phone: +123 456 7890</li>
-              <li>Address: 123 Main St, Anytown, Country</li>
-            </ul>
-            <form>
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="name" required><br><br>
-              <label for="email">Email:</label>
-              <input type="email" id="email" name="email" required><br><br>
-              <label for="message">Message:</label><br>
-              <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
-              <button type="submit">Send Message</button>
-            </form>
-          </section>
-
-
-		<div class="col">
-			<div class="card">
-                <h5>CV</h5>
-                <div class ="btn-container">
-                    <button class = "btn btn-color-1" onclick="window.open('./ASSETS/Erin Esteban-CV.jpg')">
-                        Download CV
-                    </button>
-                </div>
-			</div>
-			<div class="card">
-				<h5>IT Projects</h5>
-			</div>
-			<div class="card">
-				<h5>Finance Blogs</h5>
-			</div>
+		<div class="btn-container">
+			<button
+				class="btn btn-color-1"
+				onclick="window.open('./ASSETS/Erin Esteban-CV.jpg')"
+			>
+				Download CV
+			</button>
 		</div>
-        <footer id="footer">
-			<p>&copy;2024 Erin Esteban<br />
-			<a href="https://github.com/erinmikaela"> GitHub </a>
-			&nbsp;&nbsp;&nbsp;
-			<a href="mailto:erinmikaela.esteban@tup.edu.ph"> Email </a>
-			&nbsp;&nbsp;&nbsp;
-			<a href="https://www.facebook.com/onlylokii"> Facebook </a></p>
-		  </footer>
+
+		<!-- Projects Section -->
+		<section id="it-projects">
+			<h2>IT Projects</h2>
+			<p>
+				List of my latest IT projects, including web development, basic apps,
+				and ui mockups.
+			</p>
+			<div>
+				<h3>Minesweeper</h3>
+				<div class="pictures">
+					<img src="/ASSETS/minesweeper1.jpg" alt="mainmenu" width="40%" />
+					<img
+						src="/ASSETS/minesweeper2.jpg"
+						alt="minesweepergame"
+						width="40%"
+					/>
+				</div>
+				<p>
+					A classic minecweeper game made in C language. The user can reveal a
+					square by typing the coordinates (X,Y) within the 20x20 square area.
+					The score is then saved and can be viewed in the scoreboard.
+				</p>
+			</div>
+			<hr style="border: 1px solid #848383; margin: 20px 0; width: 90%" />
+
+			<div>
+				<h3>Math Tutor V2.0</h3>
+				<div class="pictures">
+					<img src="/ASSETS/mathtutor.jpg" alt="mathtutor" width="40%" />
+				</div>
+				<p>
+					It helps the user perfom basic math calculation by generating random
+					2-digit addition, subtraction, multiplication, or division problems.
+					Math Tutor V2.0 is the final version of our C programming activity
+					that incorporates all of our previous lessons such as, loops,
+					functions, switch cases, and learning how to use srand() function.
+				</p>
+			</div>
+			<hr style="border: 1px solid #848383; margin: 20px 0; width: 90%" />
+
+			<div>
+				<h3>ASCII Painter</h3>
+				<div class="pictures">
+					<img src="/ASSETS/asciipainter1.jpg" width="40%" />
+					<img
+						src="/ASSETS/asciipainter2.jpg"
+						alt="asciipainterprogram"
+						width="40%"
+					/>
+				</div>
+				<p>
+					An open art canvas inspired by pixel art tools.This is the first group
+					project we made in programming. It can import and export creations
+					made through the program. We added wide variety of colors to choose
+					from, and the user can move the cursor pointer using WASD.
+				</p>
+			</div>
+			<hr style="border: 1px solid #848383; margin: 20px 0; width: 90%" />
+
+			<div>
+				<h3>ATM Simulation</h3>
+				<div class="pictures">
+					<img src="/ASSETS/ATMsimulation.jpg" width="40%" />
+				</div>
+				<p>
+					This ATM Simulation program can create new account, login existing
+					account/s, view balance inquiry, withdraw and deposit money, perform
+					fund transfer, and change PIN number.
+				</p>
+			</div>
+			<hr style="border: 1px solid #848383; margin: 20px 0; width: 90%" />
+
+			<div>
+				<h3>School Admin Database Website</h3>
+				<div class="pictures">
+					<img src="/ASSETS/javawebsite1.jpg" width="40%" />
+					<img src="/ASSETS/javawebsite2.jpg" width="40%" />
+				</div>
+				<p>
+					It is database management system for a fictional university. School
+					admins can insert, delete, modify, and view student records through
+					this system. This is the only project I made in java that incorporates
+					the jswing and jframe function.
+				</p>
+			</div>
+		</section>
+
+		<!-- Book Review Section -->
+		<section id="book-review">
+			<h2>Book Review</h2>
+			<p>
+				This is my book review page, where I try to express opinions, ideas, and
+				feelings that have been inspired by the books that influenced me. Here
+				you will see genuine reviews of various categories - each post unveils
+				the narratives, moralities, and inspirations that I came across. Whether
+				you're looking for your next read or simply exploring, I hope these
+				reviews spark curiosity and a love for reading.
+			</p>
+			<div class="container">
+				<img
+					src="https://cdn.kobo.com/book-images/0be0a7aa-396d-4c34-9b3d-c94de4c41c46/1200/1200/False/atomic-habits-tiny-changes-remarkable-results.jpg"
+					alt="Atomic Habits"
+				/>
+				<div class="text-content">
+					<h2>Atomic Habits</h2>
+					<p>by: James Clear</p>
+					<p>
+						I recently finished reading Atomic Habits by James Clear, and I can
+						honestly say it's one of the most practical and motivating books
+						I've come across in a long time. I picked it up because I wanted to
+						make some positive changes in my life but often found myself
+						struggling to stick with new habits. Clear's method struck a chord
+						with me right away since it was refreshingly simple and practical.
+					</p>
+					<p>
+						Since reading Atomic Habits, I've been experimenting with a few new
+						habits, using the Four Laws to guide me. For example, I've started a
+						habit of journaling every night. I made it obvious by keeping my
+						journal next to my bed, I made it easy by setting a goal to write
+						just one sentence if I'm tired, and I made it satisfying by marking
+						each day off in a calendar when I complete it. After a few weeks, it
+						feels more natural, and I'm already noticing the benefits.
+					</p>
+					<p>
+						Anyone who is serious about creating long-lasting changes in their
+						lives, regardless of how big or little should read Atomic Habits, in
+						my opinion. The lessons I've learned from this book are things I can
+						see myself using for years to come.
+					</p>
+				</div>
+			</div>
+			<hr style="border: 1px solid #848383; margin: 20px 0; width: 90%" />
+			<div class="container">
+				<img
+					src="https://www.harpercollins.com/cdn/shop/files/9780007480678_c9919a6c-94cc-49cb-bc0b-42bd00f0e901_403x.jpg?v=1726395766"
+					alt="The Adventures of Sherlock Holmes"
+				/>
+				<div class="text-content">
+					<h2>The Adventures of Sherlock Holmes</h2>
+					<p>by: Arthur Conan Doyle</p>
+					<p>
+						The Adventures of Sherlock Holmes was one of my favorite reads of
+						all time. This book is the first collection of short stories Arthur
+						Conan Doyle wrote about Sherlock Holmes. Each work narrates the
+						various cases that the detective works on, accompanied by his former
+						roommate and colleague Dr. John Watson, who narrates the tales.
+					</p>
+					<p>
+						While I enjoyed all twelve stories, a few really stood out for me. A
+						Scandal in Bohemia, the first story, introduces Irene Adler, one of
+						the few people who truly challenges Holmes. I loved the twist and
+						the respect Holmes has for her by the end. The Red-Headed League was
+						another favorite. It's such a bizarre case on the surface, but
+						Holmes' solution is ingenious and unexpected. And then there's The
+						Adventure of the Speckled Band, it was definitely eerie and
+						suspenseful that I couldn't put it down until I found out the
+						ending. Each story had something unique to offer, but these three
+						kept me hooked the most.
+					</p>
+					<p>
+						The Adventures of Sherlock Holmes is a classic for a reason. The
+						storytelling, the intriguing mysteries, and the dynamic between
+						Holmes and Watson make it a truly enjoyable read. It's the kind of
+						book that kept me guessing and trying to solve the cases alongside
+						Holmes, even though I rarely figured it out before he did. If you're
+						a fan of mysteries or just want to experience the iconic detective
+						in action, I highly recommend this book. There's a reason Sherlock
+						Holmes series is still pretty popular in the genre, as his
+						adventures are as captivating now as they were when they were first
+						published.
+					</p>
+				</div>
+			</div>
+		</section>
+		<section id="poem">
+			<h2>Poem Collection</h2>
+			<p>
+				Over the years I have created these poems—brief moments of feeling or
+				memory, snippets of my life. Through these words, I hope to share
+				moments of wonder, sorrow, and joy, capturing the beauty in both the
+				light and the shadows of life.
+			</p>
+			<div class="container__poem">
+				<div class="poem__card">
+					<h2>-Rooted-</h2>
+
+					<p>
+						A rose's beauty is admired afar <br />
+						Anyone who touches gets nothing but scar; <br />
+						Thorned between her own abomination <br />
+						Love and warmth were shown <br />
+						Still, it found rest in isolation <br />
+						For she knows she cannot <br />
+						hurt no heart than her own <br />
+					</p>
+				</div>
+
+				<div class="poem__card">
+					<h2>-Trust fall-</h2>
+
+					<p>
+						She jumped into <br />
+						his shallow heart <br />
+						Knowing she <br />
+						could get hurt, <br />
+						but still denies <br />
+						She fell deep, <br />
+						falling in a trap of lies<br />
+						and hit the rock bottom hard<br />
+					</p>
+				</div>
+
+				<div class="poem__card">
+					<h2>-Hush-</h2>
+
+					<p>
+						Darkness enclosed the place <br />
+						Eerie ambiance, <br />
+						fear on its face <br />
+						A sudden--bang! <br />
+						heart stopped its pace <br />
+						Thud comes after <br />
+						for the pity prey <br />
+						Hush now, no one <br />
+						will save the day <br />
+					</p>
+				</div>
+                <div class="poem__card">
+					<h2>-Lie-</h2>
+
+					<p>
+						While there hands intertwined <br />
+						"I love you!", she said as she smiles <br />
+						He just stood there as he cry <br />
+						Because he knew, it was a lie <br /><br/>
+
+						Fake feelings, false promises, unreal love <br />
+						She made him feel that he's dearly loved <br />
+						Oh boy, who would knew he's such a fool  <br />
+						For being blinded by the obvious truth <br /><br/>
+
+						He keeps weeping until he spoke <br />
+                        "Is that all? Do you have anye more lies to say?"<br/>
+					</p>
+				</div>
+
+                <div class="poem__card">
+					<h2>-Astray-</h2>
+
+					<p>
+						a lonely stray cat <br />
+						wanders around <br />
+						trying to survive <br />
+						in this lonely town <br /><br/>
+
+						two lonely cats <br />
+						are both friends and foes <br />
+						they warm each other at night <br />
+						while keeping only one eye closed<br />
+						
+                        I, would rather be<br />
+                        a lonely stray cat<br/>
+                        than to find a fellow one<br/>
+                        that turns its back<br/>
+                        when it sees some scraps
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contacts Section -->
+		<section id="contacts">
+			<h2>Contacts</h2>
+			<p>
+				I'd love to hear from you! Whether you have feedback on my work, want to
+				collaborate, or simply want to connect, please feel free to reach out.
+			</p>
+			<ul>
+				<li>Email: mikaella03@gmail.com</li>
+				<li>Phone: +63 939 526 7225</li>
+				<li>Address: 84 Hermacon, Lias, Marilao, Bulacan 3019</li>
+			</ul>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required /><br /><br />
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required /><br /><br />
+				<label for="message">Message:</label><br />
+				<textarea
+					id="message"
+					name="message"
+					rows="4"
+					cols="50"
+					required
+				></textarea
+				><br /><br />
+				<button type="submit">Send Message</button>
+			</form>
+		</section>
+		<footer id="footer">
+			<p>
+				&copy;2024 Erin Esteban<br />
+				<a href="https://github.com/erinmikaela"> GitHub </a>
+				&nbsp;&nbsp;&nbsp;
+				<a href="mailto:erinmikaela.esteban@tup.edu.ph"> Email </a>
+				&nbsp;&nbsp;&nbsp;
+				<a href="https://www.facebook.com/onlylokii"> Facebook </a>
+			</p>
+		</footer>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 	</body>
 </html>
