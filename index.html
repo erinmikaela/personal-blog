@@ -14,46 +14,87 @@
 		<title>Erin's Corner</title>
 	</head>
 	<body>
+		<nav id="home-nav">
+			<div class="logo"></div>
+			<div>
+				<a
+					class="sidebar-icon"
+					href="#sidebar"
+					class="btn btn-primary"
+					data-bs-toggle="offcanvas"
+					data-bs-target="#sidebar"
+					aria-controls="sidebar"
+				>
+					<img
+						src="https://raw.githubusercontent.com/erinmikaela/personal-blog/585d80356522e0c7772f1547de743b78111de2cc/ASSETS/menu-icon.svg"
+						alt="Open Sidebar"
+					/>
+				</a>
+			</div>
+		</nav>
 
-		<div class="logo">
-            <a class="sidebar-icon" href="#sidebar" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar">
-                <img src="https://raw.githubusercontent.com/erinmikaela/personal-blog/585d80356522e0c7772f1547de743b78111de2cc/ASSETS/menu-icon.svg" alt="Open Sidebar">
-              </a>
-        </div>
-        
-          <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebarLabel" style="visibility: visible;">
-            <div class="offcanvas-header">
-              <h5 id="sidebarLabel">Sidebar</h5>
-              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="list-unstyled">
-                <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#services" class="nav-link">Services</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-          <div id="about">
-            <img src=""
-          </div>
-          <div class="col">
-            <div class="card">
-                <h5>western desert</h5>
-                <p>hdeohivnaeieneiwofneiwveeb</p>
-            </div>
-            <div class="card">
-                <h5>western desert</h5>
-                <p>hdeohivnaeieneiwofneiwveeb</p>
-            </div>
-            <div class="card">
-                <h5>western desert</h5>
-                <p>hdeohivnaeieneiwofneiwveeb</p>
-            </div>
-          </div>
-		
-
+		<div
+			class="offcanvas offcanvas-start"
+			tabindex="-1"
+			id="sidebar"
+			aria-labelledby="sidebarLabel"
+			style="visibility: visible"
+		>
+			<div class="offcanvas-header">
+				<h5 id="sidebarLabel">Sidebar</h5>
+				<button
+					type="button"
+					class="btn-close text-reset"
+					data-bs-dismiss="offcanvas"
+					aria-label="Close"
+				></button>
+			</div>
+			<div class="offcanvas-body">
+				<ul class="list-unstyled">
+					<li><a href="#home-nav" class="nav-link">Home</a></li>
+					<li><a href="#about" class="nav-link">About</a></li>
+					<li><a href="#services" class="nav-link">Services</a></li>
+					<li><a href="#contact" class="nav-link">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<section id="home">
+			<div class="section__pic-container">
+				<img
+					id="author"
+					src="https://github.com/erinmikaela/personal-blog/blob/main/ASSETS/author.png?raw=true"
+					alt="Author"
+				/>
+			</div>
+			<div class="section__text">
+				<p id="section__text__p1">Hey there! I'm</p>
+                <h1 id= "section__text__h1"> Erin Esteban</h1>
+                <p id= "section__text__p2"> 3rd year BSIS student at Technological University of the Philippines - Manila </p>
+			</div>
+		</section>
+		<div class="col">
+			<div class="card">
+				<h5>Download CV</h5>
+				<p>hdeohivnaeieneiwofneiwveeb</p>
+			</div>
+			<div class="card">
+                <div id="card__pic__container1"></div>
+				<h5>IT Projects</h5>
+				<p>hdeohivnaeieneiwofneiwveeb</p>
+			</div>
+			<div class="card">
+				<h5>Finance Blogs</h5>
+				<p>hdeohivnaeieneiwofneiwveeb</p>
+			</div>
+		</div>
+        <footer id="footer">
+			<p>&copy;2024 Erin Esteban<br />
+			<a href="https://github.com/erinmikaela"> GitHub </a>
+			&nbsp;&nbsp;&nbsp;
+			<a href="mailto:erinmikaela.esteban@tup.edu.ph"> Email </a>
+			&nbsp;&nbsp;&nbsp;
+			<a href="https://www.facebook.com/onlylokii"> Facebook </a></p>
+		  </footer>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 	</body>
 </html>

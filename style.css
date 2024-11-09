@@ -1,44 +1,80 @@
-body{
-    height: 1000vh;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	border: red solid 1px;
 }
 
-.logo{
-    width: 1260px;
-    height: 70vh;
-    background-position:initial;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-image: url(https://raw.githubusercontent.com/erinmikaela/personal-blog/41a2c0ba425a6c040a775b92267791f955533ec3/ASSETS/banner.svg);
-    background-attachment: fixed;
+body {
+	height: 1000vh;
+}
 
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.logo {
+	width: 1260px;
+	height: 70vh;
+	background-position: initial;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url(https://raw.githubusercontent.com/erinmikaela/personal-blog/41a2c0ba425a6c040a775b92267791f955533ec3/ASSETS/banner.svg);
+	background-attachment: fixed;
 }
 
 .sidebar-icon {
-    position: fixed;
-    top: 10px;  
-    left: 10px;  
-    width: 40px; 
-    height: 40px; 
-    cursor: pointer;
-    z-index: 1050; 
-  }
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	z-index: 1050;
+}
 
-  .card{
-    width: 200px;
-    height: 230px;
-    display: inline-block;
-    border-radius: 10px;
-    padding: 15px 25px;
-    margin: 15px 15px;
-    box-sizing: border-box;
-    cursor: pointer;
-  }
+.card {
+	width: 200px;
+	height: 230px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	margin: 15px 15px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
 
-  .col{
-    display: block;
+.col {
+	display: block;
+	text-align: center;
+}
+
+#author {
+	width: 40vh;
+	height: 40vh;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -140px;
+}
+
+#section__text__p1 {
+	text-align: center;
+    margin-bottom: -.1rem;
+}
+#section__text__p2 {
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+#section__text__h1 {
+	font-size: 3rem;
+	text-align: center;
+}
+
+#card__pic__container1 {
+    width: 150px;
+	height: 80px;
+	background-image: url();
+}
+
+#footer {
     text-align: center;
-  }
+}
